@@ -12,7 +12,7 @@ body {
 
 .business-header {
     height: 550px;
-    background: url("./img/33.jpg") center center no-repeat scroll;
+    background: url("./img/44.jpg") center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -40,6 +40,7 @@ body {
 .blockquote-footer {
 	margin: 0px;
 }
+#map-container { height: 320px; }
 
 @media (min-width: 300px) and (max-width: 770px) {
 
@@ -94,4 +95,7 @@ footer {
 .item span{
     
     line-height: 90px;
+}
+.center-block {
+	margin-bottom: 10px;
 }
