@@ -7,15 +7,32 @@
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 	background-color: #eee;
+
 }
 
+.navbar-inverse .navbar-nav>li>a {
+	font-family: Arial Black;
+    color:inherit;
+}
+.tel>a:focus, .tel>a:hover {
+   
+   background-color: yellow;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+.navbar navbar-inverse navbar-fixed-top {
+	background-color: #337ab7;
+}
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 .container {
 	width: 100%;
 }
 .business-header {
-    height: 550px;
-    background: url("../img/446.jpg") center center no-repeat scroll;
+ /*   height: 550px;*/
+/*   background: url("../img/446.jpg") center center no-repeat scroll; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -26,6 +43,7 @@ body {
 #item1 {
 	
 }
+
 .price {
 	text-align: center;
 	font-family: Helvetica, Arial;
@@ -51,14 +69,14 @@ body {
 @media (min-width: 300px) and (max-width: 770px) {
 
         .business-header {
-		height: 1350px;
+	 /*	height: 1350px;*/
         background-image: none;
     }
 }
 @media (min-width: 10px) and (max-width: 300px) {
 
         .business-header {
-		height: 1700px;
+		 /*height: 1700px;*/
         background-image: none;
     }
 
@@ -84,13 +102,15 @@ footer {
 
 
 #tel1 { 
-	color:#9d9d9d;
+	font-family: Arial Black;
+    color:inherit;
+	
     margin:0px;
 	
 }
 
 .glyphicon {
-    font-size: 80px;
+    font-size: 100px;
 	color: #222;
 	
 }
@@ -103,6 +123,7 @@ footer {
 }
 
 #item1{
+	font-family: Arial Black;
 	font-size: 28px;
 	font-weight: 700;
 	margin-top: -10px;
