@@ -1,0 +1,8 @@
+ErrorDocument 404 http://www.spinnertoy.com.ua/
+ErrorDocument 401 http://www.spinnertoy.com.ua/
+ErrorDocument 403 http://www.spinnertoy.com.ua/
+ErrorDocument 500 http://www.spinnertoy.com.ua/
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.spinnertoy.com.ua
+RewriteRule (.*) http://spinnertoy.com.ua/$1 [R=301,L]
